@@ -19,7 +19,8 @@ public class User {
     private String password;
     private Integer points=500;
 
-    public User(String firstName, String lastName, String email, Integer yearOfBirth, String password, Integer points) {
+    public User(Integer id,String firstName, String lastName, String email, Integer yearOfBirth, String password, Integer points) {
+        this.id=id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
